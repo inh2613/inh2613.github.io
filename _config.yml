@@ -10,8 +10,7 @@ permalink:           pretty
 # About/contact
 author:
   name:              Mark Otto
-  # url:               https://twitter.com/mdo
-  url:               https://inh2613.github.io/
+  url:               "https://inh2613.github.io"
   email:             markdotto@gmail.com
 
 # Gems
