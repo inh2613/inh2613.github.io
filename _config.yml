@@ -51,8 +51,11 @@ author:
 menu:
   - title:             Database
     url:               /database/
+  - title:             CodingTest
+    url:               /codingtest_programmers/
   - title:             Essay
     url:               /essay/
+  
   - title:             About
     url:               /about/
 
