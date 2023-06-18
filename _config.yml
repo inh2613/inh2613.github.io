@@ -49,20 +49,21 @@ author:
 
 # Add links to the sidebar.
 menu:
+
+  - title: Development
+    url: /development/
+
   - title:             Database
     url:               /database/
+
+  - title:             Spring
+    url:               /spring/
 
   - title:             CodingTest
     url:               /codingtest_programmers/
 
   - title:             Essay
     url:               /essay/
-
-  - title:             Spring
-    url:               /spring/
-
-  - title:             Development
-    url:               /development/
 
   - title:             About
     url:               /about/
