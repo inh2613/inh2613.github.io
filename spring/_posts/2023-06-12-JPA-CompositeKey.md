@@ -9,7 +9,7 @@ hide_last_modified: true
 
 ---
 
-# 배경지식
+## 배경지식
 
  데이터베이스 테이블 관계는 **외래키가 기본키에 포함되는지 여부에** 따라 ```식별 관계```와 ```비식별 관계```로 구분한다. 
 
@@ -27,7 +27,7 @@ hide_last_modified: true
 
 DB 설계시 식별관계나 비식별 관계 중 하나를 선택해야한다. 최근에는 비식별관계를 주로 사용하고 꼭 필요한 곳에서만 식별관계를 사용하는 추세라고 한다. JPA는 두 관계를 모두 지원한다.
 
-# JPA 복합키 매핑
+## JPA 복합키 매핑
 
 식별자 필드가 하나일 때는, 보통의 자바의 기본 타입을 이용해서 문제가 없다.
 
@@ -35,7 +35,7 @@ DB 설계시 식별관계나 비식별 관계 중 하나를 선택해야한다. 
 
 JPA는 복합키를 지원하기 위해 ```@IdClass```(RDB에 가까운 방법)과 ```@EmbeddedId```(객체지향에 더 가까운 방법)을 제공한다.
 
-## 1. IdClass
+### 1. IdClass
 
 ```
 
@@ -100,7 +100,7 @@ public class Todo implements Serializable {
 ```
 
 
-# 참고
+## 참고
 - https://www.nowwatersblog.com/jpa/ch7/7-3
 - https://steady-hello.tistory.com/106
 

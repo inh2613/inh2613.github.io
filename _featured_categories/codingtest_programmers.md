@@ -10,7 +10,7 @@ slug: codingtest_programmers
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  프로그래머스 CodingTest 문제 풀이 정리
+  프로그래머스 CodingTest 문제 풀이 정리하기
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

@@ -10,7 +10,7 @@ slug: spring
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  회고
+  김영한 spring 강의 듣고 공부한 것 기록 하기
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

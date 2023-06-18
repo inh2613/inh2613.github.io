@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Essay
+title: Development
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: essay
+slug: development
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  
+  개발하면서 정리할 필요가 있는 것 기록하기
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
