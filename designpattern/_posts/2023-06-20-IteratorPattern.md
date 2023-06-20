@@ -11,21 +11,21 @@ hide_last_modified: true
 
 ## 목차
 
-[Iterator 패턴이란?](##Iterator 패턴이란?)
+[Iterator 패턴이란?](##Iterator-패턴이란?)
 
-[예제 Iterator 클래스 다이어그램](##예제 Iterator 클래스 다이어그램)
+[예제 Iterator 클래스 다이어그램](##예제-Iterator-클래스-다이어그램)
 
-[예제 코드 구현](##예제 코드 구현)
-- [Aggregate 인터페이스](###Aggregate 인터페이스)
-- [Iterator 인터페이스](###Iterator 인터페이스)
-- [Book 클래스](###Book 클래스)
-- [BookShelf 클래스](###BookShelf 클래스)
-- [BookShelfIterator 클래스](###BookShelfIterator 클래스)
-- [Main 클래스](###Main 클래스)
+[예제 코드 구현](##예제-코드-구현)
+- [Aggregate 인터페이스](###Aggregate-인터페이스)
+- [Iterator 인터페이스](###Iterator-인터페이스)
+- [Book 클래스](###Book-클래스)
+- [BookShelf 클래스](###BookShelf-클래스)
+- [BookShelfIterator 클래스](###BookShelfIterator-클래스)
+- [Main 클래스](###Main-클래스)
 
-[이상적인 Iterator 클래스 다이어그램](##이상적인 Iterator 클래스 다이어그램)
+[이상적인 Iterator 클래스 다이어그램](##이상적인-Iterator-클래스-다이어그램)
 
-[존재 이유](##존재 이유)
+[존재 이유](##존재-이유)
 
 [느낀점](##느낀점)
 
@@ -46,14 +46,16 @@ public interface Aggregate {
 }
 ```
 
+
 - ### Iterator 인터페이스
 ```java
 public interface Iterator {
     boolean hasNext();
     Object next();
 }
-
 ```
+
+
 - ### Book 클래스
 ```java
 public class Book {
@@ -69,8 +71,9 @@ public class Book {
                 '}';
     }
 }
-
 ```
+
+
 - ### BookShelf 클래스
 ```java
 public class BookShelf implements Aggregate {
@@ -100,6 +103,8 @@ public class BookShelf implements Aggregate {
     }
 }
 ```
+
+
 - ### BookShelfIterator 클래스
 ```java
 public class BookShelfIterator implements Iterator{
@@ -127,8 +132,9 @@ public class BookShelfIterator implements Iterator{
         return book;
     }
 }
-
 ```
+
+
 - ### Main 클래스
 ```java
 public class Main {
@@ -146,12 +152,14 @@ public class Main {
         }
     }
 }
-
 ```
+
+
 ## 이상적인 Iterator 클래스 다이어그램
 
 ## 존재 이유
 만약 구현한 사람이 배열을 사용하지 않고, java.util.Vector을 사용하려고 할 때(Aggregate를 바꾸려고 할 때) `BookShelf`만 수정하여 손쉽게 바꿀 수 있다. 
+
 ```java
 import java.util.Vector;
 
