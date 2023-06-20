@@ -59,8 +59,8 @@ menu:
   - title:             Spring
     url:               /spring/
 
-  - title:             CodingTest
-    url:               /codingtest_programmers/
+  - title:             DesignPattern
+    url:               /designpattern/
 
   - title:             Essay
     url:               /essay/
@@ -70,6 +70,7 @@ menu:
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+
 legal:
   - title:             LICENSE
     url:               /LICENSE/
