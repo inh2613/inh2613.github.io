@@ -11,23 +11,23 @@ hide_last_modified: true
 
 ## 목차
 
-[Iterator 패턴이란?](##Iterator-패턴이란?)
+[Iterator 패턴이란?](#iterator-패턴이란?)
 
-[예제 Iterator 클래스 다이어그램](##예제-Iterator-클래스-다이어그램)
+[예제 Iterator 클래스 다이어그램](#예제-iterator-클래스-다이어그램)
 
-[예제 코드 구현](##예제-코드-구현)
-- [Aggregate 인터페이스](###Aggregate-인터페이스)
-- [Iterator 인터페이스](###Iterator-인터페이스)
-- [Book 클래스](###Book-클래스)
-- [BookShelf 클래스](###BookShelf-클래스)
-- [BookShelfIterator 클래스](###BookShelfIterator-클래스)
-- [Main 클래스](###Main-클래스)
+[예제 코드 구현](#예제-코드-구현)
+- [Aggregate 인터페이스](#aggregate-인터페이스)
+- [Iterator 인터페이스](#iterator-인터페이스)
+- [Book 클래스](#book-클래스)
+- [BookShelf 클래스](#bookshelf-클래스)
+- [BookShelfIterator 클래스](#bookshelfiterator-클래스)
+- [Main 클래스](#main-클래스)
 
-[이상적인 Iterator 클래스 다이어그램](##이상적인-Iterator-클래스-다이어그램)
+[이상적인 Iterator 클래스 다이어그램](#이상적인-iterator-클래스-다이어그램)
 
-[존재 이유](##존재-이유)
+[존재 이유](#존재-이유)
 
-[느낀점](##느낀점)
+[느낀점](#느낀점)
 
 
 ---
