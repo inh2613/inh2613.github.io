@@ -36,7 +36,7 @@ hide_last_modified: true
 
 ## 예제 Iterator 클래스 다이어그램
 
-![iterator-Page-1 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/1997fa4f-a45a-4643-9e46-ee95a2156f80)
+![iterator-Page-1 drawio (2)](https://github.com/inh2613/inh2613.github.io/assets/62206617/e4c30062-f4b3-4b0c-b4ba-bd60ab280806)
 
 ## 예제 코드 구현
 
