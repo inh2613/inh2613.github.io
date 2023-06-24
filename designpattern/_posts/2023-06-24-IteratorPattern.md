@@ -181,53 +181,44 @@ public class Main {
 
 ## 존재 이유
 
-만약 구현한 사람이 배열을 사용하지 않고, `java.util.Vector`을 사용하려고 할 때(Aggregate의 종류를 바꾸려고 할 때) `BookShelf`만 수정하여 손쉽게 바꿀 수 있다. 
+- 만약 구현한 사람이 배열을 사용하지 않고, `java.util.Vector`을 사용하려고 할 때(Aggregate의 종류를 바꾸려고 할 때) `BookShelf`만 수정하여 손쉽게 바꿀 수 있음. 
 
-```java
-import java.util.Vector;
-
-public class BookShelf implements Aggregate {
-    private Vector books;
-
-    public BookShelf() {
-        this.books = new Vector();
-
-    }
-    public void appendBook(Book book){
-        books.add(book);
-    }
-    public Book getByIndex(int index){
-        return (Book)books.get(index);
-    }
-
-    public int getLength(){
-        return books.size();
-    }
-    @Override
-    public Iterator iterator() {
-        return new BookShelfIterator(this);
-    }
-}
-```
-
-## 이상적인 Iterator 클래스 다이어그램
-
-![iterator-페이지-2 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/4b9497a1-3586-4547-83bc-99cca1a428f9)
-
-
-## 존재 이유
-
-- for 문이 있는데 굳이 왜 사용할까?
-  -  구현과 분리해서 하나씩 셀수 있기 때문
-  - 사용자가 BookShelf를 수정하더라도 Main의 while문 동작에 영향을 주지 않음
-      ```java
-      Iterator it = bookShelf.iterator();
-            while (it.hasNext()) {
-                Book book = (Book) it.next();
-                System.out.println(book.toString());
-            }
+  ```java
+  import java.util.Vector;
+  
+  public class BookShelf implements Aggregate {
+      private Vector books;
+  
+      public BookShelf() {
+          this.books = new Vector();
+  
+      }
+      public void appendBook(Book book){
+          books.add(book);
+      }
+      public Book getByIndex(int index){
+          return (Book)books.get(index);
+      }
+  
+      public int getLength(){
+          return books.size();
+      }
+      @Override
+      public Iterator iterator() {
+          return new BookShelfIterator(this);
+      }
+  }
+  ```
+- 사용자가 BookShelf를 수정하더라도 Main의 while문 동작에 영향을 주지 않음
+  ```java
+  Iterator it = bookShelf.iterator();
+  
+  while (it.hasNext()) {
+  Book book = (Book) it.next();
+  System.out.println(book.toString());
+  }
      ```
-    **클래스의 재이용화를 용이하게 할 수 있음**
+-  구현과 분리하여 하나씩 셀수 있어 **클래스의 재이용화를 용이하게 할 수 있음**
 
 ## 참고
 - Java 언어로 배우는 디자인 패턴 입문(유키 히로시)
