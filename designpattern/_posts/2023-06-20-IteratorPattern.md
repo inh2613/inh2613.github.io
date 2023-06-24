@@ -35,6 +35,7 @@ hide_last_modified: true
 ## Iterator 패턴이란?
 
 ## 예제 Iterator 클래스 다이어그램
+![iterator-Page-1 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/061c9078-617b-4d84-9da5-ba2786be6010)
 
 
 ## 예제 코드 구현
@@ -84,7 +85,7 @@ public class BookShelf implements Aggregate {
         this.books = new Book[maxSize];
     }
 
-    public Book getByindex(int index) {
+    public Book getByIndex(int index) {
         return books[index];
     }
 
@@ -127,7 +128,7 @@ public class BookShelfIterator implements Iterator{
     }
     @Override
     public Object next() {
-        Book book = bookShelf.getByindex(index);
+        Book book = bookShelf.getByIndex(index);
         index++;
         return book;
     }
@@ -173,7 +174,7 @@ public class BookShelf implements Aggregate {
     public void appendBook(Book book){
         books.add(book);
     }
-    public Book getByindex(int index){
+    public Book getByIndex(int index){
         return (Book)books.get(index);
     }
 
@@ -186,6 +187,10 @@ public class BookShelf implements Aggregate {
     }
 }
 ```
+
+## 이상적인 Iterator 클래스 다이어그램
+![iterator-페이지-2 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/d72e4f8f-9dff-40ad-934c-99f41aa95806)
+
 ## 느낀점
 
 ## 참고
