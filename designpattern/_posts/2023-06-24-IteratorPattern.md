@@ -36,7 +36,8 @@ hide_last_modified: true
 
 ## 예제 Iterator 클래스 다이어그램
 
-![iterator-Page-1 drawio (2)](https://github.com/inh2613/inh2613.github.io/assets/62206617/e4c30062-f4b3-4b0c-b4ba-bd60ab280806)
+![iterator-Page-1 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/6cb4e1aa-1ad5-4712-95b6-4b41d5d6c51d)
+
 
 ## 예제 코드 구현
 
@@ -211,7 +212,8 @@ public class BookShelf implements Aggregate {
 
 ## 이상적인 Iterator 클래스 다이어그램
 
-![iterator-페이지-2 drawio (1)](https://github.com/inh2613/inh2613.github.io/assets/62206617/fa79c041-8458-4a91-be29-28c3116c9ca4)
+![iterator-페이지-2 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/4b9497a1-3586-4547-83bc-99cca1a428f9)
+
 
 ## 존재 이유
 
