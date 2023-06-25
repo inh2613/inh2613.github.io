@@ -23,7 +23,7 @@ hide_last_modified: true
 - [BookShelfIterator 클래스](#bookshelfiterator-클래스)
 - [Main 클래스](#main-클래스)
 
-[이상적인 Iterator 클래스 다이어그램](#이상적인-iterator-클래스-다이어그램)
+[Iterator 패턴의 클래스 다이어그램](#Iterator-패턴의-클래스-다이어그램)
 
 [존재 이유](#존재-이유)
 
@@ -36,14 +36,13 @@ hide_last_modified: true
 
 ## 예제 Iterator 클래스 다이어그램
 
-![iterator-Page-1 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/6cb4e1aa-1ad5-4712-95b6-4b41d5d6c51d)
+![iterator-Page-1 drawio (1)](https://github.com/inh2613/inh2613.github.io/assets/62206617/40450c8b-6890-4ba5-82da-b251fc109759)
 
 
 ## 예제 코드 구현
 
 - ### Aggregate 인터페이스
-  - 요소들이 나열되어 있는 **집합체**를 나타냄 
-  - Aggregate 인터페이스를 구현하는 클래스는 배열처럼 뭔가가 많이 모여있음 (배열, ArrayList, Vector 등)
+  - 요소들이 나열되어 있는 **집합체**를 나타냄
   - 집합체에 대응하는 Iterator 1개를 작성하기 위해 iterator 메소드 하나만 선언되어 있음
     ```java
     public interface Aggregate {
@@ -158,10 +157,18 @@ public class Main {
     }
 }
 ```
+실행 결과
 
-## 이상적인 Iterator 클래스 다이어그램
+```java
+Book{name='hello-1'}
+Book{name='hello-2'}
+Book{name='hello-3'}
+Book{name='hello-4'}
+```
 
-![iterator-페이지-2 drawio (1)](https://github.com/inh2613/inh2613.github.io/assets/62206617/fa79c041-8458-4a91-be29-28c3116c9ca4)
+## Iterator 패턴의 클래스 다이어그램
+
+![iterator-페이지-2 drawio (1)](https://github.com/inh2613/inh2613.github.io/assets/62206617/2b2e9a2c-503c-4573-8dd5-c885ceb5fd49)
 
 - **Iterator**
   - 요소를 순서대로 검색해가는 인터페이스 결정
@@ -218,7 +225,8 @@ public class Main {
   System.out.println(book.toString());
   }
      ```
--  구현과 분리하여 하나씩 셀수 있어 **클래스의 재이용화를 용이하게 할 수 있음**
+- 구현과 분리하여 셀 수 있음
+- **클래스의 재이용화를 용이하게 할 수 있음**
 
 ## 참고
 - Java 언어로 배우는 디자인 패턴 입문(유키 히로시)
