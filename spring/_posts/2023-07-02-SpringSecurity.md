@@ -114,9 +114,11 @@ public class CustomWebSecurityConfiguration extends WebSecurityConfigurerAdapter
 - 훗날 프로젝트에서 스프링 시큐리티 프레임워크를 이용해 **JWT를 이용한 일반 로그인과, OAuth를 이용한 소셜 로그인 기능**을 구현할 계획이다. 
 
 ### 1. SecurityConfig
+
 - 기존의 WebSecurityConfigurerAdapter 은 deprecated되어 SecurityFilterChain 사용 
 - [참고](https://velog.io/@pjh612/Deprecated%EB%90%9C-WebSecurityConfigurerAdapter-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8C%80%EC%B2%98%ED%95%98%EC%A7%80)
 - 해당 예제에서는 `.permitAll()`를 사용하여 모든 권한을 열어주었다.
+
 ```java
 package com.inhee.jwttest.config;
 
@@ -150,6 +152,7 @@ public class SecurityConfig {
 ```
 
 2. Service 
+
 ```java
 package com.inhee.jwttest.member.service;
 
