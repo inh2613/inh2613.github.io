@@ -62,6 +62,9 @@ menu:
   - title:             DesignPattern
     url:               /designpattern/
 
+  - title:             Infra
+    url:               /infra/
+
   - title:             Essay
     url:               /essay/
 
