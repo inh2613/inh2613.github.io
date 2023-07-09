@@ -38,12 +38,13 @@ hide_last_modified: true
 ## 예제 코드 구현
 
 - ### Product 클래스
+
 ```java
 public abstract class Product {
 	public abstract void use();
 }
-
 ```
+
 - ### Factory 클래스
 ```java
 public abstract class Factory {
