@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iterator 패턴
+title: FactoryMethod 패턴
 description: >
   2023.07.09 디자인 패턴 스터디 - FactoryMethod Pattern 발표 자료 입니다.
 sitemap: false
