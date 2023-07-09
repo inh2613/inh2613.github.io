@@ -103,7 +103,7 @@ public class Main {
 	}
 }
 ```
-## Iterator 패턴의 클래스 다이어그램
+## FactoryMethod 패턴의 클래스 다이어그램
 ![facorymethod-페이지-2 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/818ca7cd-1da8-43a9-8fac-8722c5d8f538)
 
 - **Product**
