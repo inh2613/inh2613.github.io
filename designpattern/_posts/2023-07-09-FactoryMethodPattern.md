@@ -34,11 +34,12 @@ hide_last_modified: true
 
 ![facorymethod-Page-1 drawio](https://github.com/inh2613/inh2613.github.io/assets/62206617/167069b2-fe0a-4031-9cf3-6e7110dc63f9)
 
+- framework 패키지 : 인스턴스를 생성하는 뼈대 역할 
+- idcard 패키지 : 뼈대에 살을 붙여 구체적인 내용을 구현하는 역할 
 
 ## 예제 코드 구현
 
 - ### Product 클래스
-
 ```java
 public abstract class Product {
 	public abstract void use();
