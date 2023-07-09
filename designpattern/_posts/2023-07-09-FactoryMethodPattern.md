@@ -111,7 +111,8 @@ public class Main {
     - Product 클래스
 - **Creator**
     - Product 역할을 생성하는 추상 클래스
-    - 인스턴스를 생성하는 메소드를 호출
+    - new를 사용해 실제 인스턴스를 생성하지 않고, 인스턴스를 생성하는 메소드를 호출
+    - 구체적인 클래스 이름에 의한 속박으로부터 상위 클래스를 자유롭게 함
     - Factory 클래스
 - **ConcreteProduct**
     - 구체적인 제품 결정
