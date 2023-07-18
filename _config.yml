@@ -104,8 +104,8 @@ paginate_path:         /:num/
 # 동시에는 안된다
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack # 로컬에서
-remote_theme: hydecorp/hydejack@v9 #github.io 에서
+theme: jekyll-theme-hydejack # 로컬에서
+# remote_theme: hydecorp/hydejack@v9 #github.io 에서
 
 
 # Customizaton
