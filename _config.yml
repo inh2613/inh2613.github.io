@@ -32,7 +32,7 @@ description:           >
 url: https://inh2613.github.io
 
 feed:
-  path: rss.xml
+  path: feed.xml
   limit: 10
 
 # A shorter description for the sidebar.
