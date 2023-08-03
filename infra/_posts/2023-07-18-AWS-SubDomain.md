@@ -12,16 +12,18 @@ hide_last_modified: true
 
 1. ACM에서 하위 도메인 인증서 발급
     - `Route53에서 레코드 생성` 해야 DNS 검증 방식으로 생성됨
-   ![Alt text](image.png)
+   ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/3bfe7fa4-e009-4f49-b22b-86f2319e3e0d)
+
     
     - Route53 레코드 화면
-    ![Alt text](image-1.png)
-
+    ![image-1](https://github.com/inh2613/inh2613.github.io/assets/62206617/71defd1d-5aeb-4b8b-9529-fffaecf48beb)
 
 
 2. A 레코드 생성
-    ![Alt text](image-2.png)
+    ![image-2](https://github.com/inh2613/inh2613.github.io/assets/62206617/cd1b507b-5b63-4c33-b327-a95854562e1d)
+
    
 3. 로드 밸런서에 인증서 등록
-    ![Alt text](image-3.png)
-    ![Alt text](image-4.png)
+    ![image-3](https://github.com/inh2613/inh2613.github.io/assets/62206617/df9f5583-6706-49dc-8455-935b4636633f)
+
+    ![image-4](https://github.com/inh2613/inh2613.github.io/assets/62206617/3a470f9b-967c-4405-9e99-6646c83feb39)
