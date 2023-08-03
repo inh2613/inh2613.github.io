@@ -71,8 +71,6 @@ $ sudo systemctl restart codedeploy-agent
 
 github actions에서 ECR에 로그인 하는 과정에서 리전 헷갈리면 안된다.
 
-`{{Registry}}`/`{{Repository}}` 로 나뉜다.
-
 ## CodeDeploy 생성
 
 1. 애플리케이션 생성
@@ -244,6 +242,7 @@ jobs:
 1. Github Actions
 
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/34bf50f2-6b16-4833-8cc9-a3d8d0143b93)
+
 2. ECR
 
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/27b4b24f-19ff-46b8-8031-59dc6b3a505f)
