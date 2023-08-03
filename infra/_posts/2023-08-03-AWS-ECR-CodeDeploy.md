@@ -239,29 +239,29 @@ jobs:
 
 ## 결과
 
-1. Github Actions
+- Github Actions
 
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/34bf50f2-6b16-4833-8cc9-a3d8d0143b93)
 
-2. ECR
+- ECR
 
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/27b4b24f-19ff-46b8-8031-59dc6b3a505f)
 
-3. S3
+- S3
 
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/215730d3-b87b-4761-97ef-03b33804e82f)
 
-4. CodeDeploy
+- CodeDeploy
 
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/dd60a712-d231-457a-b210-2387044b34ae)
 
-5. EC2
+- EC2
 
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/766ba248-13fc-4eb3-867e-5356f273b716)
 
 ## 장점
 
-복잡하긴하다. 그냥 ssh tunnelling이용해서 docker image pull 해서 배포하는게 가장 쉬운 것 같다.
+복잡하긴 하다. ssh tunnelling이용해서 docker image pull 해서 배포하는게 가장 쉬운 것 같다.
 
 그래도 장점이 있다면 배포 시간이나 어떤 버전을 배포했는지 모두 기록되기 때문에 배포 버전관리가 쉽다는 장점이 있는 것 같다.
 
