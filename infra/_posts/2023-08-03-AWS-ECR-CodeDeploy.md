@@ -73,8 +73,10 @@ github actions에서 ECR에 로그인 하는 과정에서 리전 헷갈리면 �
 ## CodeDeploy 생성
 
 1. 애플리케이션 생성
+
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/9a753fff-c7ce-4d5b-a7f2-8f56e2ab9f44)
 2. 배포그룹 생성
+
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/85972386-1bc3-4189-9709-053db4a0b7e1)
 
 이때 앞서 IAM 역할 생성할 때 만든 code-deploy-role를 서비스 역할에 입력한다. 
@@ -237,17 +239,22 @@ jobs:
 ## 결과
 
 1. Github Actions
+
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/34bf50f2-6b16-4833-8cc9-a3d8d0143b93)
 2. ECR
+
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/27b4b24f-19ff-46b8-8031-59dc6b3a505f)
 
 3. S3
+
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/215730d3-b87b-4761-97ef-03b33804e82f)
 
 4. CodeDeploy
+
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/dd60a712-d231-457a-b210-2387044b34ae)
 
 5. EC2
+
 ![11](https://github.com/inh2613/inh2613.github.io/assets/62206617/766ba248-13fc-4eb3-867e-5356f273b716)
 
 ## 장점
