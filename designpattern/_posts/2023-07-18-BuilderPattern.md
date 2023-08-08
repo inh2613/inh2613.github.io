@@ -12,7 +12,6 @@ hide_last_modified: true
 ## 목차
 
 [Builder 패턴이란?](#Builder-패턴이란?)
-- 
 
 [예제 Builder 클래스 다이어그램](#예제-Builder-클래스-다이어그램)
 
