@@ -13,6 +13,7 @@ IP를 할당 받는 과정(DHCP->ARP)->도메인 IP 쿼리(UDP->DNS)->실제 연
 ## 1. Wifi access point (a.k.a 공유기)
 - 일종의 무선 라우터
 - 유선 네트워크와 무선 네트워크 간의 브리지 역할
+
 ## 2. DHCP
 ### 호스트의 IP 주소와 각종 TCP/IP 프로토콜의 기본 설정을 클라이언트에게 자동으로 제공해주는 프로토콜
 1. 노트북이 wifi access point와 연결됨
@@ -29,6 +30,7 @@ ARP를 통해 매칭되는 MAC 주소 알아냄
 ---
 # WAN 구간
 ### 1. 통신사
+
 ### 2. DNS
 내 노트북은 www.naver.com에 대해서 물어봄 아래와 같은 순서로 요청함
 DNS 작동 순서
@@ -99,7 +101,7 @@ HypterText Transfer Protocol의 약자로 서버-클라이언트 모델을 따�
 
 <span style="color:green"> HTTP 요청과 응답을 받으면 그 응답을 렌더링해서 보여줌 내 노트북에 네이버 홈페이지가 나타남! </span>
 
-<span style="color:pink"> HTTP 1.1에서는 keep alive를 지원해서 한번 요청 응답했다고 tcp 연결이 termination되지 않음 </span>
+<span style="color:red"> HTTP 1.1에서는 keep alive를 지원해서 한번 요청 응답했다고 tcp 연결이 termination되지 않음 </span>
 
 ### 5. TCP Connection termination
 - 4 way hand shake
