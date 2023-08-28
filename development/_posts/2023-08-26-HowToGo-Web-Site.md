@@ -8,22 +8,24 @@ hide_last_modified: true
 ---
 
 ---
+**IP를 할당 받는 과정(DHCP->ARP)->도메인 IP 쿼리(UDP->DNS)->실제 연결(TCP)->데이터 전송(HTTP)**
+
 # LAN 구간(ARP Request가 미치는 영역)
-IP를 할당 받는 과정(DHCP->ARP)->도메인 IP 쿼리(UDP->DNS)->실제 연결(TCP)->데이터 전송(HTTP)
-## 1. Wifi access point (a.k.a 공유기)
+
+### 1. Wifi access point (a.k.a 공유기)
 - 일종의 무선 라우터
 - 유선 네트워크와 무선 네트워크 간의 브리지 역할
 
-## 2. DHCP
-### 호스트의 IP 주소와 각종 TCP/IP 프로토콜의 기본 설정을 클라이언트에게 자동으로 제공해주는 프로토콜
-1. 노트북이 wifi access point와 연결됨
-2. DHCP를 통해 사용가능한 ip주소 및 관련 네트워크 구성 정보를 받게 됨
+### 2. DHCP
+- 호스트의 IP 주소와 각종 TCP/IP 프로토콜의 기본 설정을 클라이언트에게 자동으로 제공해주는 프로토콜
+- 노트북이 wifi access point와 연결됨
+- DHCP를 통해 사용가능한 ip주소 및 관련 네트워크 구성 정보를 받게 됨
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/1b2c7ba7-dd8b-4799-a700-72568f1d06e2)
 
-## 3. ARP
-### IP주소를 물리적 네트워크 주소로(NIC의 MAC 주소) 대응 시키는 프로토콜(IP로 MAC얻기)
-DHCP로 받은 IP주소를 사용해 통신하려면 이 IP주소의 물리적인 MAC주소가 필요함 
-ARP를 통해 매칭되는 MAC 주소 알아냄
+### 3. ARP
+- IP주소를 물리적 네트워크 주소로(NIC의 MAC 주소) 대응 시키는 프로토콜(IP로 MAC얻기)
+- DHCP로 받은 IP주소를 사용해 통신하려면 이 IP주소의 물리적인 MAC주소가 필요함 
+- ARP를 통해 매칭되는 MAC 주소 알아냄
 
 <span style="color:green"> 내 노트북 통신 준비 완료! </span>
 
