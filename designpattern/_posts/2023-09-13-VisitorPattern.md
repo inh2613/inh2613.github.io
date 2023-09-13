@@ -177,7 +177,6 @@ public class Main {
 		bindir.add(new File("vi", 10000));
 		bindir.add(new File("latex", 20000));
 		rootdir.accept(new ListVisitor());
-		rootdir.accept(new ListVisitor());
 		System.out.println();
 
 		System.out.println("Making user entries...");
