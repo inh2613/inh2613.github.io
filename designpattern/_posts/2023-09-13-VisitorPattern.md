@@ -13,8 +13,6 @@ hide_last_modified: true
 
 - [Visitor 패턴이란?](#Visitor-패턴이란?)
 - [예제 Visitor 클래스 다이어그램](#예제-Visitor-클래스-다이어그램)
-
-
 - [예제 코드 구현](#예제-코드-구현)
     - [Visitor 클래스](#Visitor-클래스)
 
@@ -31,11 +29,7 @@ hide_last_modified: true
     - [Main 클래스](#main-클래스)
 
 - [예제 Visitor 시퀀스 다이어그램](#예제-Visitor-시퀀스-다이어그램)
-![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/adcd0b1a-aaf5-4fad-86bb-7ce9f804340d)
-
 - [Visitor 패턴의 클래스 다이어그램](#Visitor-패턴의-클래스-다이어그램)
-![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/fa259798-232e-4403-b34a-3a9aa6bc27ac)
-
 - [존재 이유](#존재-이유)
 
 
@@ -43,9 +37,9 @@ hide_last_modified: true
 
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/ad10adbd-cb5b-4ef2-9edf-6ed5d0196c80)
 - 데이터 구조와 처리를 분리한다
+
 ## 예제 Visitor 패턴 클래스 다이어 그램
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/28d153c5-7c86-4a26-b78a-e0c453a97794)
-
 
 ## 예제 코드 구현
 
@@ -194,6 +188,14 @@ public class Main {
 	}
 }
 ```
+### 예제 Visitor 시퀀스 다이어그램
+![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/adcd0b1a-aaf5-4fad-86bb-7ce9f804340d)
+
+### Visitor 패턴의 클래스 다이어 그램
+![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/fa259798-232e-4403-b34a-3a9aa6bc27ac)
+
 ## 존재 이유
+
 - 데이터 구조와 처리를 같이하게 되면, 데이터 구조 파일에 접근하여 계속 수정해야 한다. -> 확장에는 열고 수정에는 닫아야 하는 원칙을 지킬 수 없다!(개방 폐쇄의 원칙)
+
 ---
