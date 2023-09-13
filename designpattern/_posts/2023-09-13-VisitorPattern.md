@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Strategy 패턴
+title: Visitor 패턴
 description: >
-  2023.08.08 디자인 패턴 스터디 - Strategy Pattern 발표 자료 입니다.
+  2023.09.13 디자인 패턴 스터디 - Visitor Pattern 발표 자료 입니다.
 sitemap: false
 hide_last_modified: true
 ---
