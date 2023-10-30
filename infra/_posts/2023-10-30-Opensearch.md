@@ -1,7 +1,8 @@
 ---
 layout: post
 title: AWS Opensearch (Elasticsearch)
-description: >
+description: > 
+Elasticsearch에 관한 기본 지식과 Opensearch 프로젝트 적용기
   
 sitemap: false
 hide_last_modified: true
@@ -246,6 +247,9 @@ PUT product
   }
 }
 ```
+
+## 다음 이야기
+- Elasticsearch의 다양한 tokenizer와 token filter, RESTful API에 대해 다루겠다!
 
 ## 참고 자료
 - https://jaemunbro.medium.com/elastic-search-%EA%B8%B0%EC%B4%88-%EC%8A%A4%ED%84%B0%EB%94%94-ff01870094f0
