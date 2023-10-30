@@ -27,7 +27,7 @@ hide_last_modified: true
 - 다양한 plug-in을 이용하여 한국어 기반의 형태소 기반 자연어 처리 가능
 - Multi Tenancy 제공
     - 인덱스가 달라도(RDB로 치면 DB가 달라도) field명만 같으면 검색 가능
-- inverted index 제공 (MongoDB, Cassandra 등의 일반적인 NoSQL은 지원 안함)
+
 
 ### 단점
 - Real-Time X
