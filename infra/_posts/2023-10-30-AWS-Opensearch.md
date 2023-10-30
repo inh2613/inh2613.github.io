@@ -2,8 +2,7 @@
 layout: post
 title: AWS Opensearch (Elasticsearch)
 description: > 
-Elasticsearch에 관한 기본 지식과 AWS Opensearch 프로젝트 적용기
-  
+  Elasticsearch에 관한 기본 지식과 AWS Opensearch 프로젝트 적용기
 sitemap: false
 hide_last_modified: true
 ---
