@@ -18,7 +18,9 @@ hide_last_modified: true
 ![image](https://github.com/inh2613/inh2613.github.io/assets/62206617/d986f458-a9fc-46ce-a2dc-76cc84a927d7)
 
 [예제 코드 구현](#예제-코드-구현)
+
 - [Command 인터페이스](#Command-인터페이스)
+
 ```java
 public interface Command {
 	public abstract void execute();
@@ -26,6 +28,7 @@ public interface Command {
 
 ```
 - [MacroCommand 클래스](#MacroCommand-클래스)
+
 ```java
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -59,6 +62,7 @@ public class MacroCommand implements Command{
 
 ```
 - [DrawCommand 클래스](#DrawCommand-클래스)
+
 ```java
 import java.awt.*;
 
@@ -79,6 +83,7 @@ public class DrawCommand implements Command{
 
 ```
 - [Drawable 인터페이스](#Drawable-인터페이스)
+
 ```java
 public interface Drawable {
 	public abstract void draw(int x,int y);
@@ -86,6 +91,7 @@ public interface Drawable {
 
 ```
 - [DrawCanvas 클래스](#DrawCanvas-클래스)
+
 ```java
 import java.awt.*;
 
@@ -115,6 +121,7 @@ public class DrawCanvas extends Canvas implements Drawable{
 
 ```
 - [Main 클래스](#Main-클래스)
+
 ```java
 import java.awt.event.MouseMotionListener;
 import java.awt.event.WindowListener;
